@@ -1,4 +1,6 @@
-﻿namespace MindboxTestTaskGeometry.Shapes;
+﻿using System.Globalization;
+
+namespace MindboxTestTaskGeometry.Shapes;
 
 public class Circle: Shape
 {
@@ -6,6 +8,9 @@ public class Circle: Shape
     
     public Circle(double radius)
     {
+        if (radius <= 0)
+            throw new ArgumentException(radius.ToString(CultureInfo.InvariantCulture));
+        
         Radius = radius;
     }
     

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTestTaskGeometry", "MindboxTestTaskGeometry\MindboxTestTaskGeometry.csproj", "{338D3528-8D8A-47C8-9EFF-875A6B90203E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTestTaskGeometry_Tests", "MindboxTestTaskGeometry_Tests\MindboxTestTaskGeometry_Tests.csproj", "{D582E201-1644-4FB4-BF4D-50AFAC41518C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{338D3528-8D8A-47C8-9EFF-875A6B90203E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{338D3528-8D8A-47C8-9EFF-875A6B90203E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{338D3528-8D8A-47C8-9EFF-875A6B90203E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D582E201-1644-4FB4-BF4D-50AFAC41518C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D582E201-1644-4FB4-BF4D-50AFAC41518C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D582E201-1644-4FB4-BF4D-50AFAC41518C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D582E201-1644-4FB4-BF4D-50AFAC41518C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
