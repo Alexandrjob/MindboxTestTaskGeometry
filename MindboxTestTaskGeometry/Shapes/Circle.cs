@@ -11,6 +11,6 @@ public class Circle: Shape
     
     public override double CalculateArea()
     {
-        throw new NotImplementedException();
+        return Math.PI * Math.Pow(Radius, 2);
     }
 }

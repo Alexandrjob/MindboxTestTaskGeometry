@@ -15,11 +15,14 @@ public class Triangle: Shape
     
     public override double CalculateArea()
     {
-        throw new NotImplementedException();
+        double p = (SideA + SideB + SideC) / 2;
+        return Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
     }
     
     public bool IsRightAngled()
     {
-        throw new NotImplementedException();
+        double[] sides = { SideA, SideB, SideC };
+        Array.Sort(sides);
+        return Math.Pow(sides[0], 2) + Math.Pow(sides[1], 2) == Math.Pow(sides[2], 2);
     }
 }
